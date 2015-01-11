@@ -27,7 +27,7 @@ bind - command -c selectHighs   #bind the hyphen to
 screen -t stuff 	1
 screen -t logs   2	    
 screen -t tailme    3	tail -f /var/log/*
-screen -t htop  	9	htop
+screen -t htop  	4	htop
 
 shelltitle "$ |bash"
 
