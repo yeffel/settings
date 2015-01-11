@@ -24,20 +24,10 @@ bind - command -c selectHighs   #bind the hyphen to
                                 #command-class selectHighs 
 
 
-screen -t rtorrent  0	rtorrent	
-#screen -t tunes    	1	ncmpc --host=192.168.1.4 --port=6600 #was for connecting to MPD music server.
 screen -t stuff 	1
-screen -t irssi 	2	irssi
-screen -t dancing   4	    
-screen -t python    5	python
-screen -t giantfriend   6	these_are_ssh_to_server_scripts.sh
-screen -t computerrescue    7	these_are_ssh_to_server_scripts.sh
-screen -t BMon  	8	bmon -p eth0
+screen -t logs   2	    
+screen -t tailme    3	python
 screen -t htop  	9	htop
-screen -t hellanzb  10	hellanzb
-screen -t watching  3	
-#screen -t interactive.fiction  8
-#screen -t hellahella   8	paster serve --daemon  /home/gyaresu/downloads/hellahella/hella.ini	
 
 shelltitle "$ |bash"
 
